@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  font-weight: bold;
+  color: #3c45b3;
+}
+
+body {
+  width: 100%;
+  background-color: #ffc484;
+}
+
+h1 {
+  justify-self: center;
+}
+
+form {
+}
+
+section {
+  padding-top: 5vh;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto;
+}
+
+div {
+  justify-self: center;
+}
+
+div img {
+  border-radius: 30px;
+}
